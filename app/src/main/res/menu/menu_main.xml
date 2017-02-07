@@ -1,0 +1,17 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_snowman"
+        android:icon="@drawable/ic_accessibility_black_24dp"
+        android:title="@string/snowman"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_recycle"
+        android:icon="@drawable/ic_find_replace_black_24dp"
+        android:title="@string/recycle"
+        app:showAsAction="ifRoom"/>
+
+</menu>
