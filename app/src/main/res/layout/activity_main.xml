@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="edu.byu.cstaheli.cs456.homework3.MainActivity">
+    tools:context="edu.byu.cstaheli.cs456.homework3.main.MainActivity">
 
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -25,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <edu.byu.cstaheli.cs456.homework3.view.SnowManView
+        <edu.byu.cstaheli.cs456.homework3.main.view.SnowManView
+            android:id="@+id/snowman_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

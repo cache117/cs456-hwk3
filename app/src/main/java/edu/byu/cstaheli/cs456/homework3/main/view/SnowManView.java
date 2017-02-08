@@ -1,9 +1,10 @@
-package edu.byu.cstaheli.cs456.homework3.view;
+package edu.byu.cstaheli.cs456.homework3.main.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Point;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -113,4 +114,9 @@ public class SnowManView extends View
     }
 
 
+    public void setOffset(Point offset)
+    {
+        this.xOffset = offset.x;
+        this.yOffset = offset.y;
+    }
 }
